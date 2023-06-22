@@ -22,8 +22,3 @@ def solution(date1, date2):
                 return 0
             else:
                 return 0  # date1과 date2가 동일한 경우
-
-# 예시 테스트케이스
-print(solution([2022, 1, 1], [2023, 1, 1]))  # 1
-print(solution([2023, 1, 1], [2022, 1, 1]))  # 0
-print(solution([2023, 1, 1], [2023, 1, 1]))  # 0
